@@ -1,3 +1,4 @@
+-- Active: 1674477735409@@127.0.0.1@3306
 -- Tabelas já foram criadas
 CREATE TABLE bands (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -14,9 +15,9 @@ CREATE TABLE songs (
 -- Bandas já foram inseridas
 INSERT INTO bands (id, name)
 VALUES
-    ("b001", "Evanescence"),
-    ("b002", "LS Jack"),
-    ("b003", "Blink-182");
+    ("b007", "Evanescence"),
+    ("b008", "LS Jack"),
+    ("b009", "Blink-182");
 
 -- Músicas já foram inseridas
 INSERT INTO songs (id, name, band_id)
